@@ -23,6 +23,17 @@
     color: #d9dcd6;
 }
 
+/*Sets link color and style*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Sets background  color for everything contained in the body*/
+body {
+    background-color: #d9dcd6;
+}
+
 /*Main image styling*/
 .hero {
     height: 800px;
@@ -31,22 +42,6 @@
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-/*Sets background for everything contained in the body*/
-body {
-    background-color: #d9dcd6;
-}
-
-/*Sets link color and style*/
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/*Sets paragraph font size*/
-p {
-    font-size: 16px;
 }
 
 /*Layout for the main content section of the page*/
@@ -68,7 +63,12 @@ p {
     margin-left: 25px;
 }
 
-/*SEO box styling*/
+/*Paragraph Styling*/
+p {
+    font-size: 16px;
+}
+
+/*SEO info box styling*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -78,18 +78,18 @@ p {
     color: #ffffff;
 }
 
-/*SEO box image size*/
+/*SEO info box image size*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
-/*SEO box header styling*/
+/*SEO info box header styling*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*Online Reputation Management box styling*/
+/*Online Reputation Management info box styling*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,18 +99,18 @@ p {
     color: #ffffff;
 }
 
-/*Online Reputation Management box image size*/
+/*Online Reputation Management info box image size*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
-/*Online Reputation Management header styling*/
+/*Online Reputation Management info box header styling*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*Social Media Marketing box styling*/
+/*Social Media Marketing info box styling*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,12 +120,12 @@ p {
     color: #ffffff;
 }
 
-/*Social Media Marketing image size*/
+/*Social Media Marketing info image size*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
-/*Social Media Marketing header styling*/
+/*Social Media Marketing info box header styling*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
