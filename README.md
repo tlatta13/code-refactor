@@ -6,6 +6,7 @@ This project required us to analyze and refactor the html and css files of an ex
 ## List of updates
 * Fixed the navigation link for Search Engine Optimization
 * Gave all img tags alt text
+* Centered all the p tags in the benefits sidebar
 * Updated h tags to follow sequential order for the page
 * Updated all the div tags to follow current html5 semantics
 * Added comments to all sections identifying what each section was in index.html
